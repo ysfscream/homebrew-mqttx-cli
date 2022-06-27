@@ -11,6 +11,6 @@ class MqttxCli < Formula
   # depends_on "cmake" => :build
 
   def install
-    bin.install "mqttx-cli"
+    bin.install "mqttx"
   end
 end
